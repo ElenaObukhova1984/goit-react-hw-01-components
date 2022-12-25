@@ -2,9 +2,9 @@ import PropTypes from "prop-types";
 import { StatisticsContainer,StatisticsTitle,StatisticsList,StatisticsItem,StatisticLabel,StatisticPerc } from "./Statistics.styled";
 
 export const Statistics = ({ title, stats }) => {
-    return (
-        <StatisticsContainer>
-            <StatisticsTitle>{title}</StatisticsTitle>
+  return (
+    <StatisticsContainer>
+      {title && <StatisticsTitle> { title }</StatisticsTitle>}
 
             <StatisticsList>
                 {stats.map(data => (
