@@ -21,8 +21,8 @@ background-color: white;
 margin-bottom: 10px;
 padding: 5px;
 align-items: center;
-border-radius: 8px;
-box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+border-radius: 2px;
+box-shadow: 10px 10px 8px 2px rgba(162, 158, 158, 0.3);
 
 `
 export const FriendsStatus = styled.span`
@@ -45,7 +45,7 @@ margin-left: 12px;
 `
 
 export const FriendsName = styled.p`
-margin-left: 12px;
-font-weight: 600;
+margin-left: 20px;
+font-weight: 700;
 
 `
